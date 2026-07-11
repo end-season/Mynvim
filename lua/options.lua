@@ -10,9 +10,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4 
 vim.opt.expandtab = true
 
---开启行号和相对行号
+--开启行号和关闭相对行号
 vim.opt.number = true
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 
 --高亮光标所在行
 vim.opt.cursorline = true
